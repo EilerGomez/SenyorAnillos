@@ -48,4 +48,19 @@ public class Juego{
         ejercitoBestias[3]=new Trasgos("Trasgo 2");
         ejercitoBestias[4]=new Orcos("Orco 3");
     }
+    public void presentarEjercitos(Personaje ejercitos[]){
+        if(ejercitos.length>0){
+            String tempo = "";
+            if(ejercitos[0] instanceof Bestias){
+                tempo = "Bestias";
+            }else{
+                tempo = "Heroes";
+            }
+            for(int i = 0; i<ejercitos.length; i++){
+                ejercitos[i].saludar();
+            }
+        }else{
+            System.out.println("No hay ejercitos");
+        }
+    }
 }

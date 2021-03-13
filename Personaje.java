@@ -33,6 +33,9 @@ public class Personaje {
     }
     public void setarmadura(int armadura){
         this.armadura = armadura;
-    }        
+    }   
+    public void saludar(){
+        System.out.println("Hola soy " + this.nombre);
+    }     
     
 }
