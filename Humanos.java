@@ -1,6 +1,6 @@
 public class Humanos extends Heroes{
     public Humanos(String nombre){
-        super(180,nombre,75);
+        super(180.0,nombre,75.0);
     }
     @Override
     public void saludar(){

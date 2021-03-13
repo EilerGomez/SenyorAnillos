@@ -1,19 +1,19 @@
 public class Personaje {
-    int vida;
+    double vida;
     String nombre;
-    int ataque;
-    int armadura;
-    public Personaje(int vida, String nombre,int ataque,int armadura){
+    double ataque;
+    double armadura;
+    public Personaje(double vida, String nombre,double ataque,double armadura){
         this.vida=vida;
         this.nombre = nombre;
         this.ataque=ataque;
         this.armadura=armadura;
     }
 
-    public int getvida(){
+    public double getvida(){
         return this.vida;
     }
-    public void setvida(int vida){
+    public void setvida(double vida){
         this.vida=vida;
     }
     public String getnombre(){
@@ -22,16 +22,16 @@ public class Personaje {
     public void setnombre(String nombre){
         this.nombre = nombre;
     }
-    public int getataque(){
+    public double getataque(){
         return this.ataque;
     }
-    public void setataque(int ataque){
+    public void setataque(double ataque){
         this.ataque=ataque;
     }
-    public int getarmadura(){
+    public double getarmadura(){
         return this.armadura;
     }
-    public void setarmadura(int armadura){
+    public void setarmadura(double armadura){
         this.armadura = armadura;
     }   
     public void saludar(){

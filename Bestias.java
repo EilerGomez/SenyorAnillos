@@ -1,6 +1,6 @@
 public class Bestias extends Personaje{
     
-    public Bestias(int vida, String nombre, int armadura){
+    public Bestias(double vida, String nombre, double armadura){
         super(vida,nombre,90,armadura);
     }
 

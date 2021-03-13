@@ -1,6 +1,6 @@
 public class Orcos extends Bestias{
     public Orcos(String nombre){
-        super(300,nombre,45);
+        super(300.0,nombre,45.0);
     }
     @Override
     public void saludar(){

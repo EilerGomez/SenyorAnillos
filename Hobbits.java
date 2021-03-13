@@ -1,6 +1,6 @@
 public class Hobbits extends Heroes{
     public Hobbits(String nombre){
-        super(200,nombre,40);
+        super(200.0,nombre,40.);
     }
     @Override
     public void saludar(){

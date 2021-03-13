@@ -1,6 +1,6 @@
 public class Elfos extends Heroes{
     public Elfos(String nombre){
-        super(250,nombre,60);
+        super(250.0,nombre,60.);
     }
     @Override
     public void saludar(){

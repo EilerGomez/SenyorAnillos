@@ -1,6 +1,6 @@
 public class Trasgos extends Bestias{
     public Trasgos(String nombre){
-        super(325,nombre,46);
+        super(325.0,nombre,46.0);
     }
     @Override
     public void saludar(){
