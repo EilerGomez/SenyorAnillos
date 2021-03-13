@@ -4,6 +4,6 @@ public class Orcos extends Bestias{
     }
     @Override
     public void saludar(){
-        System.out.println("Hola soy una Bestias, un Orco y me llamo: " + this.nombre);
+        System.out.println("Hola soy una Bestia, un Orco y me llamo: " + this.nombre);
     }
 }

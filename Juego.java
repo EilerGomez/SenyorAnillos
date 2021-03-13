@@ -24,6 +24,9 @@ public class Juego{
             }else if(ir==2){
                 inicializarHeroes();
                 iniciualizarBestias();
+                presentarEjercitos(ejercitoHeroes);
+                System.out.println("\n");
+                presentarEjercitos(ejercitoBestias);
 
             }else if(ir==3){
                 System.out.println("Fin del juego");
@@ -56,6 +59,7 @@ public class Juego{
             }else{
                 tempo = "Heroes";
             }
+            System.out.println("Presentando ejercitos de: " + tempo);
             for(int i = 0; i<ejercitos.length; i++){
                 ejercitos[i].saludar();
             }
