@@ -4,6 +4,6 @@ public class Humanos extends Heroes{
     }
     @Override
     public void saludar(){
-        System.out.println("Hola soy un Heroe, un Humano y me llamo: " + this.nombre);
+        System.out.println("Hola soy un Heroe, un Humano y me llamo: " + this.nombre + ", Vida: " + getvida() );
     }
 }

@@ -4,6 +4,6 @@ public class Trasgos extends Bestias{
     }
     @Override
     public void saludar(){
-        System.out.println("Hola soy una Bestia, un Trasgo y me llamo: " + this.nombre);
+        System.out.println("Hola soy una Bestia, un Trasgo y me llamo: " + this.nombre + ", Vida: " + getvida());
     }
 }
