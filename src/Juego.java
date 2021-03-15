@@ -268,8 +268,8 @@ public class Juego{
         
         }
         System.out.println("Ha finalizado la pelea:");
-        System.out.println(ejercitoHeroes[heroePelear].getnombre() + " Vida: " + ejercitoHeroes[heroePelear].getvida() + " Armadura: " + defensa);
-        System.out.println(ejercitoBestias[bestiaPelear].getnombre() + " Vida: " + ejercitoBestias[bestiaPelear].getvida() + " Armadura: " + defensa1);
+        System.out.println(ejercitoHeroes[heroePelear].getnombre() + " Vida: " + ejercitoHeroes[heroePelear].getvida() + " Armadura: " + defensa1);
+        System.out.println(ejercitoBestias[bestiaPelear].getnombre() + " Vida: " + ejercitoBestias[bestiaPelear].getvida() + " Armadura: " + defensa);
         System.out.println("\n1.Salir");
         int salir = teclado.nextInt();
     }
