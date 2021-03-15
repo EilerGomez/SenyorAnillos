@@ -58,7 +58,7 @@ public class Juego{
     }
     public void inicializarHeroes(){
         ejercitoHeroes [0]= new Elfos("Legolas");
-        ejercitoHeroes [1]= new Hobbits("Fondo");
+        ejercitoHeroes [1]= new Hobbits("Frondo");
         ejercitoHeroes [2]= new Humanos("Aragorn");
         ejercitoHeroes [3]= new Elfos("Thranduil");
         ejercitoHeroes [4]= new Hobbits("Sam");
